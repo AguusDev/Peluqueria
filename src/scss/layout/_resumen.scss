@@ -1,0 +1,63 @@
+.invalidar__cita{
+    text-align: center;
+    color: $blanco;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.span__resumen{
+    font-weight: $bold;
+    font-size: 1.5rem;
+    color: $azul;
+
+}
+.resumenCita{
+    margin: 1rem 0;
+    color: $blanco;
+    font-size: 1.4rem;
+    font-weight: $grande;
+    letter-spacing: 1px;
+}
+.resumen-servicios{
+    margin-top: 2.5rem;
+    
+    h3{
+        font-size: 2.5rem;
+    }
+    
+}
+.contenedor-servicio{
+    margin:2rem 0;
+    border-bottom: 1px solid #43453c;
+
+    display: grid;
+    
+    .servicio{
+        margin: 1rem 0;
+        color: $blanco;
+        font-size: 1.4rem;
+        font-weight: $grande;
+        letter-spacing: 1px;
+    }
+    .precio{
+        margin: 1rem 0;
+        color: $azul;
+        font-size: 2rem;
+        font-weight: $grande;
+        letter-spacing: 1px;
+    }
+
+}
+.total__pagar{
+    font-size: 2.5rem;
+    font-weight: $bold;
+    color:$blanco;
+    margin: 5rem 0;
+
+}
+.span__total{
+    font-weight: $bold;
+    font-size: 2.5rem;
+    color: $azul;
+}

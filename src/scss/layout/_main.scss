@@ -1,0 +1,33 @@
+.app{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 5rem / 2 ;
+}
+.section{
+    display: none;
+    margin-top: 2rem ;
+    
+}
+
+
+
+/* Seccion 1 : Servicios */
+
+.title__section{
+    font-size: 3rem;
+    font-weight: $bold;
+    color: $azul;
+    text-align: center;
+}
+.section__p{
+    text-align: center;
+    color: $blanco;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+    
+}
+
+.mostrar-seccion{
+    display: block!important;
+}

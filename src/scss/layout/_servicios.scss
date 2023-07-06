@@ -1,0 +1,45 @@
+.listado-servicios{
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 2rem;
+    margin-top: 2rem;
+}
+.div__servicios{
+    background-color: $blanco;
+    border-radius: 1rem;
+    padding: 1.9rem 1rem;
+    margin:.5rem 0;
+
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: .5rem;
+    &:hover{
+        filter: brightness(.9);
+        cursor: pointer;
+    }
+}
+.nom__servicios{
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+.precio__servicio{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: $azul;
+}
+.seleccionado{
+    background-color: $azul;
+    p{
+        color: $blanco;
+    }
+}
+
+@include mediaScreen{
+    .listado-servicios{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+}
